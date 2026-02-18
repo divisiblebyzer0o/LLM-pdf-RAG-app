@@ -1,11 +1,11 @@
 name : LLM APP CI
 
-ON : 
+on : 
   push :
     branches : [ main ]
   pull_request :
   
-JOBS :
+jobs :
   build :
     runs-on : ubuntu-latest
     steps :
